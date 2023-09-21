@@ -5,6 +5,20 @@
     background-size: cover;
     min-height: 100vh;
     display: flex;
+
+    .container {
+        display: flex;
+        max-width: 60vw;
+        min-width: 700px;
+        margin: 20rem auto;
+        gap: 10rem;
+    }
+
+}
+#pg-1 picture img {
+    border-radius: 50%;
+    width: 35rem;
+    height: 35rem;
 }
 
 #pg-2 {
@@ -16,39 +30,29 @@
     min-height: 100vh;
 }
 
-#pg-1 .container {
-    display: flex;
-    max-width: 60vw;
-    min-width: 700px;
-    margin: 20rem auto;
-    gap: 10rem;
-}
-
-#pg-1 picture img {
-    border-radius: 50%;
-    width: 35rem;
-    height: 35rem;
-}
 #about {
     display: flex;
     flex-direction: column;
-}
-#about p {
-    margin: 2rem 0 4rem 0;
+
+    > p {
+        margin: 2rem 0 4rem 0;
+    }
+
 }
 #tech-stack {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-#tech-stack img {
-    height: 50px;
-    width: 50px;
-}
-#tech-stack #mysql-logo {
-    height: 90px;
-    width: 90px;
-    margin: 0 -20px;
+
+    > img {
+        height: 50px;
+        width: 50px;
+    }
+    #mysql-logo {
+        height: 90px;
+        width: 90px;
+        margin: 0 -20px;
+    }
 }
 /* *** PROJECT SECTION *** */
 .projects {
